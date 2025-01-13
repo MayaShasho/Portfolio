@@ -1,0 +1,33 @@
+.root {
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    color: #617fad;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 2rem;
+
+
+    a {
+        text-decoration: inherit;
+        display: flex;
+        gap: 1rem;
+        align-items: baseline;
+    }
+
+    a:visited {
+        color: inherit;
+    }
+
+    a:hover {
+        color: #133568;
+    }
+
+
+}

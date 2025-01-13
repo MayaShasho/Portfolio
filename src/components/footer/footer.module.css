@@ -1,0 +1,53 @@
+.root {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    place-items: start;
+    height: 100%;
+    display: grid;
+    max-width: 768px;
+    margin-bottom: 200px;
+
+    h2 {
+
+        font-weight: 600;
+        margin: 0;
+        font-size: 4.5rem;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        color: rgb(46 62 106);
+
+    }
+
+    p {
+        font-weight: 600;
+        margin: 0;
+        font-size: 3.5rem;
+        color: rgb(46 62 106);
+
+    }
+
+    span {
+        color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(to right, #14b8a6, rgba(96, 165, 250, 1));
+    }
+
+    a {
+        font-size: 2.25rem;
+        color: #617fad;
+        font-weight: 400;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: linear-gradient(289deg, #fd7702, #fb0);
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}
