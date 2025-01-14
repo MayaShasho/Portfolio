@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './projects.module.css';
-import screenshot from '../../assets/screenshot.jpg'
-import todolist from '../../assets/todoListwhite.jpg'
-import bank from '../../assets/bank.jpg'
+import screenshot from '../../assets/screenshot.jpg';
+import todolist from '../../assets/todoListwhite.jpg';
+import bank from '../../assets/bank.jpg';
 
 export const Projects = () => {
     return (
@@ -17,7 +17,9 @@ export const Projects = () => {
                     <div className={styles.content}>
                         <a data-aos="fade-up"
                             data-aos-duration="500"
-                            className={styles.details} href='/'>
+                            className={styles.details}
+                            href='/'
+                            target="_blank">
                             <h3 data-aos="fade-in"
                                 data-aos-delay="300"
                                 data-aos-duration="1000">My Personal Website</h3>
@@ -29,7 +31,9 @@ export const Projects = () => {
 
                         <a data-aos="fade-up"
                             data-aos-duration="500"
-                            className={styles.details} href='https://mayashasho.github.io/Todo-List/'>
+                            className={styles.details}
+                            href='https://mayashasho.github.io/Todo-List/'
+                            target="_blank">
                             <h3 data-aos="fade-in"
                                 data-aos-delay="300"
                                 data-aos-duration="1000">To-do list</h3>
