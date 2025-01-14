@@ -9,6 +9,37 @@ export const Education = () => {
                     data-aos-duration="1000">Education</h3>
                 <div className={styles.content}>
                     <ul>
+                        {/* Infinity labs*/}
+                        <li data-aos="fade-in"
+                            data-aos-duration="1000"
+                            className={styles.baseCard}>
+                            <details className={styles.educationDetail}>
+                                <summary
+                                    className={styles.toggleTitle}>
+                                    Infinity Labs R&D | Full Stack Software Development Training
+                                </summary>
+                                <span>Advanced Systems Programming & Algorithms: </span>
+                                <br />
+                                Gained hands-on experience with systems-level programming,
+                                including memory management and file systems,
+                                while mastering data structures and algorithms for efficient problem-solving.
+                                <br />
+                                <span>Performance Optimization & Scalability: </span>
+                                Focused on optimizing code, managing system resources,
+                                and designing scalable applications with low-latency performance.
+                                <br />
+                                <span>Adaptability & Self-Learning: </span>
+                                The program's intensity pushed us to constantly learn new concepts, frameworks, and languages,
+                                developing strong self-learning skills and the ability to adapt quickly to new technologies.
+                                <br />
+                                <span>End-to-End Development: </span>
+                                Built and integrated full-stack applications, from front-end interfaces to back-end servers and databases,
+                                ensuring seamless performance and user experience.
+                                <br />
+                            </details>
+                            <time>2024 - 2025</time>
+                        </li>
+
                         {/* College Section */}
                         <li data-aos="fade-in"
                             data-aos-duration="1000"
