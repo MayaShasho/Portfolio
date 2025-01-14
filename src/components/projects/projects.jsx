@@ -18,7 +18,7 @@ export const Projects = () => {
                         <a data-aos="fade-up"
                             data-aos-duration="500"
                             className={styles.details}
-                            href='/'
+                            href='https://mayashasho.github.io/Portfolio/'
                             target="_blank">
                             <h3 data-aos="fade-in"
                                 data-aos-delay="300"
