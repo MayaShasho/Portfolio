@@ -1,4 +1,5 @@
 import styles from './slideTrack.module.css';
+import Marquee from "react-fast-marquee";
 import { SiMysql } from "react-icons/si";
 import { TfiMicrosoft } from "react-icons/tfi";
 import { LiaJava } from "react-icons/lia";
@@ -13,7 +14,7 @@ import { SiMongodb } from "react-icons/si";
 export const SlideTrack = () => {
     return (
         <div className={styles.root}>
-            <ul className={styles.list}>
+            <Marquee className={styles.list} speed={150} pauseOnHover>
                 <li><TfiMicrosoft size={30} /><span>Microsoft Office</span></li>
                 <li><AiOutlinePython size={40} /><span>Python</span></li>
                 <li>C</li>
@@ -29,23 +30,7 @@ export const SlideTrack = () => {
                 <li>Express.js</li>
                 <li>Solidworks</li>
                 <li>Matlab</li>
-
-                <li><TfiMicrosoft size={30} /><span>Microsoft Office</span></li>
-                <li><AiOutlinePython size={40} /><span>Python</span></li>
-                <li>C</li>
-                <li><LiaJava size={40} /><span>Java</span></li>
-                <li><IoLogoJavascript size={40} /></li>
-                <li><FaNodeJs size={30} /><span>Node.js</span></li>
-                <li><SiReact size={30} /><span>React</span></li>
-                <li><AiOutlineHtml5 size={30} /><span>HTML5</span></li>
-                <li><TbBrandCss3 size={30} /><span>CSS3</span></li>
-                <li>SQL</li>
-                <li><SiMysql size={80} style={{ marginBlockStart: -24 }} /></li>
-                <li><SiMongodb size={30} /><span>MongoDB</span></li>
-                <li>Express.js</li>
-                <li>Solidworks</li>
-                <li>Matlab</li>
-            </ul >
+            </Marquee>
         </div>
     )
 }

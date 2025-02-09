@@ -21,15 +21,21 @@ export const WorkExperiences = () => {
                             <ul>
                                 <li>
                                     <BiSolidLeftArrow />
-                                    Conducted statistical analyses of datasets using Matlab
+                                    <p>
+                                        Conducted statistical analyses of datasets using Matlab
+                                    </p>
                                 </li>
                                 <li>
                                     <BiSolidLeftArrow />
-                                    Provided oversight for clinical data collection in health facilities
+                                    <p>
+                                        Provided oversight for clinical data collection in health facilities
+                                    </p>
                                 </li>
                                 <li>
                                     <BiSolidLeftArrow />
-                                    Collected data, maintained records, and ensured compliance with regulatory standards
+                                    <p>
+                                        Collected data, maintained records, and ensured compliance with regulatory standards
+                                    </p>
                                 </li>
                             </ul>
                         </div>
@@ -46,7 +52,9 @@ export const WorkExperiences = () => {
                             <ul>
                                 <li>
                                     <BiSolidLeftArrow />
-                                    Tutored and coached students to help develop their Mathematics skills
+                                    <p>
+                                        Tutored and coached students to help develop their Mathematics skills
+                                    </p>
                                 </li>
                                 <li>
                                     The position required me to lead by example and be dedicated, constantly encouraging my students.

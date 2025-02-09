@@ -20,21 +20,29 @@ export const Education = () => {
                                 </summary>
                                 <span>Advanced Systems Programming & Algorithms: </span>
                                 <br />
-                                Gained hands-on experience with systems-level programming,
-                                including memory management and file systems,
-                                while mastering data structures and algorithms for efficient problem-solving.
+                                <p>
+                                    Gained hands-on experience with systems-level programming,
+                                    including memory management and file systems,
+                                    while mastering data structures and algorithms for efficient problem-solving.
+                                </p>
                                 <br />
                                 <span>Performance Optimization & Scalability: </span>
-                                Focused on optimizing code, managing system resources,
-                                and designing scalable applications with low-latency performance.
+                                <p>
+                                    Focused on optimizing code, managing system resources,
+                                    and designing scalable applications with low-latency performance.
+                                </p>
                                 <br />
                                 <span>Adaptability & Self-Learning: </span>
-                                The program's intensity pushed us to constantly learn new concepts, frameworks, and languages,
-                                developing strong self-learning skills and the ability to adapt quickly to new technologies.
+                                <p>
+                                    The program's intensity pushed us to constantly learn new concepts, frameworks, and languages,
+                                    developing strong self-learning skills and the ability to adapt quickly to new technologies.
+                                </p>
                                 <br />
                                 <span>End-to-End Development: </span>
-                                Built and integrated full-stack applications, from front-end interfaces to back-end servers and databases,
-                                ensuring seamless performance and user experience.
+                                <p>
+                                    Built and integrated full-stack applications, from front-end interfaces to back-end servers and databases,
+                                    ensuring seamless performance and user experience.
+                                </p>
                                 <br />
                             </details>
                             <time>2024 - 2025</time>
@@ -50,17 +58,25 @@ export const Education = () => {
                                     B.Sc. of Medical Engineering | Afeka College of Engineering
                                 </summary>
                                 <span>Majoring:</span>
-                                Information system
+                                <p>
+                                    Information system
+                                </p>
                                 <br />
-                                Focused on data mining, predictive tools, machine learning, and software.
+                                <p>
+                                    Focused on data mining, predictive tools, machine learning, and software.
+                                </p>
                                 <br />
                                 <span>Final Project: </span>
-                                PPG Signal Analysis System for Diagnosing Arrhythmias.
+                                <p>
+                                    PPG Signal Analysis System for Diagnosing Arrhythmias.
+                                </p>
                                 <ul>
                                     <li>Awarded an excellent project accolade</li>
                                 </ul>
-                                The final product is a wristband device designed to detect arrhythmias based on signal processing and machine learning.
-                                The project encompasses the full development of a medical device, combining software techniques along with the designing of a complex hardware system.
+                                <p>
+                                    The final product is a wristband device designed to detect arrhythmias based on signal processing and machine learning.
+                                    The project encompasses the full development of a medical device, combining software techniques along with the designing of a complex hardware system.
+                                </p>
                                 <br />
                                 <span>GPA:</span> 87.5
                             </details>
@@ -79,7 +95,9 @@ export const Education = () => {
                                 <ul>
                                     <li>Completed 15 Matriculation Units in Medicine</li>
                                 </ul>
-                                Gaining insights into human body systems, various pathologies, and preventive medicine through theoretical studies and practical experiences.
+                                <p>
+                                    Gaining insights into human body systems, various pathologies, and preventive medicine through theoretical studies and practical experiences.
+                                </p>
                             </details>
                             <time>2012 - 2014</time>
                         </li>

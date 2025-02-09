@@ -4,15 +4,15 @@
     padding-block: 90px;
 
     .list {
-        width: calc(20rem * 30);
         display: flex;
         gap: 3rem;
-        animation: scroll 30s linear infinite;
         font-weight: 600;
         color: var(--secondary-text-color);
         font-size: 1.5rem;
+        overflow: visible;
 
         li {
+            margin-inline: 1.5rem;
             width: 20rem;
             height: 9rem;
             border-radius: .5rem;
@@ -27,18 +27,20 @@
             word-wrap: break-word;
             gap: 5px;
         }
+    }
 
-        &:hover {
-            animation-play-state: paused;
+
+    @media (max-width: 768px) {
+        .list {
+            font-size: 1.2rem;
+
+
+            li {
+                width: 13rem;
+                height: 6rem;
+            }
         }
 
-    }
-}
 
-
-
-@keyframes scroll {
-    100% {
-        transform: translateX(calc((-20rem) * 15));
     }
 }

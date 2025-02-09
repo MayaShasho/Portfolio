@@ -5,7 +5,7 @@
     display: flex;
     justify-content: flex-end;
     gap: 3rem;
-    color: #617fad;
+    color: #617fad !important;
     padding-top: 3rem;
     padding-bottom: 3rem;
 
@@ -19,6 +19,7 @@
         display: flex;
         gap: 1rem;
         align-items: baseline;
+        color: inherit;
     }
 
     a:visited {
@@ -30,4 +31,32 @@
     }
 
 
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+    .root {
+        flex-direction: row;
+        text-align: center;
+        gap: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    .root {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 14px;
+    }
 }

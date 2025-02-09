@@ -16,8 +16,6 @@
     }
 
     .container {
-        /* padding-top: 24rem;
-        padding-bottom: 24rem; */
         padding-top: 15rem;
         padding-bottom: 27rem;
         z-index: 2;
@@ -66,6 +64,7 @@
 
     img {
         border-radius: 20px;
+        width: 100%;
     }
 
     p {
@@ -77,5 +76,49 @@
     a {
         text-decoration: none;
         color: rgb(46 62 106);
+    }
+
+    /* Tablet View */
+    @media (max-width: 768px) {
+        .content {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 8px;
+        }
+
+        h2 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .container {
+            margin-inline: 1.5rem;
+        }
+    }
+
+    /* Mobile View */
+    @media (max-width: 480px) {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        .details {
+            padding: 10px;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
     }
 }
